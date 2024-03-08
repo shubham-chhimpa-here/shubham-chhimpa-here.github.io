@@ -1,8 +1,5 @@
 import {Box, Heading, SimpleGrid } from '@chakra-ui/react';
 import ProjectCard from './ProjectCard';
-import logoipsum from '../assets/Images/logoipsum.png'
-import tvapple from '../assets/Images/tvapple.png'
-import old from '../assets/old.png'
 import { data } from './AllData';
 export default function Projects() {
     

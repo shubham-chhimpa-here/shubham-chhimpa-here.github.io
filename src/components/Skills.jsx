@@ -25,18 +25,18 @@ export default function Skills() {
             label: 'NODEJS',
             src: 'https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg'
         },
-        // {
-        //     label: 'MONGODB',
-        //     src: 'https://chiranjeev-thapliyal.vercel.app/svg/mongodb.svg'
-        // },
+        {
+            label: 'MONGODB',
+            src: 'https://chiranjeev-thapliyal.vercel.app/svg/mongodb.svg'
+        },
         {
             label: 'BOOTSTRAP',
             src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png'
         },
-        {
-            label: 'CHAKRAUI',
-            src: 'https://image.pngaaa.com/704/7959704-middle.png'
-        },
+        // {
+        //     label: 'CHAKRAUI',
+        //     src: 'https://image.pngaaa.com/704/7959704-middle.png'
+        // },
         {
             label: 'GIT',
             src: 'https://chiranjeev-thapliyal.vercel.app/svg/git.svg'

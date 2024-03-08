@@ -163,7 +163,7 @@ const DesktopSubNav = ({ label, href, subLabel, download, blank }) => {
 
 const MobileNav = () => {
   return (
-    <Stack bg={useColorModeValue('white', 'gray.800')} p={4} display={{ md: 'none' }}>
+    <Stack bg={useColorModeValue('white', 'gray.800')} p={4} display={{ md: 'none' }} >
       {NAV_ITEMS.map((navItem) => (
         <MobileNavItem key={navItem.label} {...navItem} />
       ))}
@@ -209,7 +209,7 @@ const MobileNavItem = ({ label, children, href }) => {
           align={'start'}>
           {children &&
             children.map((child) => (
-              <Box as="a" key={child.label} py={2} href={child.href}>
+              <Box as="a" key={child.label} py={2} href={child.href} >
                 {child.label}
               </Box>
             ))}

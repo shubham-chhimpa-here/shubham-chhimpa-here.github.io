@@ -21,14 +21,17 @@ export default function ProjectCard({ item }) {
     const { title, list, tech, scr, live, github } = item;
     return (
         <Container maxW={'5xl'} bg={'white'} boxShadow={'rgba(0, 0, 0, 0.1) 0px 0px 10px 0px'} padding={'1rem'} borderRadius={'17px'}>
-            <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} >
-                <Flex boxShadow={'rgba(0, 0, 0, 0.1) 0px 0px 10px 0px'} borderRadius={'17px'} maxH={'300px'}>
+            <SimpleGrid columns={{ base: 1, md: 2 }}  spacing={10} >
+                <Flex boxShadow={'rgba(0, 0, 0, 0.1) 0px 0px 10px 0px'}  borderRadius={'17px'} maxH={'300px'}
+                rounded={'md'}
+                overflow={'hidden'}
+                >
                     <Image
                     
-                        rounded={'md'}
+                       
                         alt={title}
                         src={scr}
-                        objectFit={'cover'}
+                        maxW={'100%'}
                     />
                 </Flex>
                 <Stack spacing={4} alignItems={'center'}>
